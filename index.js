@@ -8,7 +8,7 @@ const app = express()
 
 // middleware
 app.use(express.json())
-
+// added some stuff
 // routes
 app.use('/user', userRoutes)
 app.use('/instrument', intrumentRoutes)
