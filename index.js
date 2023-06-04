@@ -6,6 +6,8 @@ require('dotenv').config()
 
 const app = express()
 
+console.log('test test test')
+
 // middleware
 app.use(express.json())
 
